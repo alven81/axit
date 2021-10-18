@@ -1,0 +1,420 @@
+/*Selectors*/
+
+/* --- Element selector --- */
+
+body {
+    background-color: black;
+    font-family: Raleway, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+h1, h2, h3, hr, ul, p {
+    padding: 0;
+    margin: 0;
+}
+
+/*<!--Navbar-->*/
+
+.header_background {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    min-height: 64px;
+    max-width: 1400px;
+}
+
+.header_section_logo {
+    display: flex;
+    flex-wrap: wrap;    
+    width: 79px;
+    height: 27px;
+    margin-right: auto;
+    margin-left: 10%;
+}
+.header_section_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    right: 0;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 24%;
+}
+
+header img {
+    height: 27px;
+    width: 79px;
+}
+
+nav a {
+    display: block;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*<!--Header Logo-->*/
+
+.logo_background {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(../img/background_top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 648px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7.3%;
+    padding-bottom: 5%;
+}
+
+.logo_background img {
+    height: 60px;
+    width: 175px;
+}
+
+.logo_background h2 {
+    font-weight: normal;
+}
+
+.logo_background hr {
+    height: 2px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: white;
+    margin-right: 100%;
+}
+
+.logo_background p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: lighter;
+    }
+
+.logo_background a {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.logo_background_text {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.logo_background_form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 360px;
+    max-height: 368px;
+    border-radius: 5px;
+    margin-top: 3.4%;
+}
+
+.logo_background_form h3{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 5px 5px 0 0;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    background-color: #DFDFDF;
+}
+
+.logo_background_form h3 span{
+    color: #FF8B38;
+}
+
+.logo_background_form button{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 0 0 5px 5px;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    background-color: #FF9B51;
+    border: transparent;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.logo_background_form input[type=text], 
+                      input[type=email],
+                      input[type=password] {
+    background-color: white;
+    border: transparent;
+    border-bottom: 1px solid #DFDFDF;
+    width: 276px;
+    height: 32px;
+    
+    
+}
+
+.logo_background_form input::placeholder {
+    color: #BDBDBD;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 5px;
+}
+
+/*<!--Brandbar-->*/
+
+.social_media_section {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    min-height: 105px;    
+}
+
+.social_media_section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.social_media_section p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #86878B;
+}
+
+.social_media_section_social{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.social_media_section img{
+
+    height: 40px;
+    width: 40px;
+}
+
+/*<!--Features-->*/
+
+.features_section {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    min-height: 598px;
+    padding: 131px 10%;
+    background-color: #F5F5F5;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.25);
+}
+
+.features_section_tab {
+    background-color: tomato;
+    width: 112px;
+}
+
+.features_section_middle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.features_section_middle p {
+    display:inline;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+}
+
+.features_section_middle a {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 134px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #FA8F21;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.features_section_img {
+    padding-top: 25px;
+}
+
+.features_section img {
+    width: 320px;
+    height: 253px;
+}
+
+
+/*<!--Our Process-->*/
+
+.process_article {
+    background-color: #ffffff;
+}
+
+/*<!--Pricing-->*/
+
+.pricing_section {
+    background-color: #F5F5F5;
+}
+
+/*<!--Testimonials-->*/
+
+.testimonials_section {
+    background-color: #ffffff;
+}
+
+/*<!--Custom Sections-->*/
+
+.custom_section {
+    background-color: #F5F5F5;
+}
+
+/*<!--Contact Us-->*/
+
+.contact_section {
+    background-color: #ffffff;
+}
+
+/*<!--Footer-->*/
+
+.footer_footer {
+    background-color: black;
+}
+
+
+
+
+
+/* --- Universal selector - will use for all elements --- 
+
+    * {
+    ... 
+    }
+
+*/
+/* --- Class selector: class="nav_bar" --- 
+
+    .nav_bar {
+    ...
+    }
+
+*/
+/* --- Identificator selector: id="sidebar" --- 
+
+    #sidebar {
+    ...
+    }
+
+*/
+/* --- Child selector ---
+
+    ul li {
+    ...
+    }
+
+    ul li img {
+    ...
+    }
+
+    p.first a {     (first - is a class in teg)
+    ...
+    }
+
+*/
+/* --- Groupe of selectors --- 
+
+    .menu,
+    #bold,
+    .menu p {
+    ...
+    }
+
+*/
+/* --- Rule - !important --- 
+
+    span {
+        font-weight: bold !important;
+    }
+
+*/
+
+
+
+
+
+
+
+.feature {
+
+}
+
+.feature h3 {
+
+}
+
+.feature img {
+
+}
+
+.feature p {
+
+}
+
+.classname:not(:first-child) {
+
+}
+
+.list-class li {
+
+}
+
+.list-class li:first-child {
+
+}
+

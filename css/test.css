@@ -1,0 +1,28 @@
+
+input[name='tab'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+}
+input[name='tab']:after {
+  font-size: 18px;
+  background-color: #333333;
+  cursor: grab;
+  display: inline-block;
+  text-align: center;
+  width: 112px;
+  height: 112px;
+  content: attr(text);
+  border-radius: 4px;
+  color: black;
+  transition: box-shadow 0.5s, color 1s;
+}
+
+
+input[name='tab']:checked:after {
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4);
+  background-color: #FF9B51;
+}
+
