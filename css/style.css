@@ -297,7 +297,7 @@ nav a {
 
 .process_article {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
@@ -314,8 +314,7 @@ nav a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 425px;
-    height: 109px;
+    min-height: 109px;
 }
 
 .process_article_top p {
@@ -378,7 +377,7 @@ nav a {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    height: 109px;
+    min-height: 109px;
 }
 
 .pricing_section_top hr {
@@ -474,24 +473,94 @@ p.pricing_section_orange {
 /*<!--Testimonials-->*/
 
 .testimonials_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 594px;
     background-color: #ffffff;
+    padding: 73px 10%;
+}
+
+.testimonials_section_top {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 105px;
+}
+
+.testimonials_section_top hr {
+    height: 2px;
+    background-color: #FF8B38;
+    width: 64px;
+    border: 0;
+}
+
+.testimonials_section_top p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+}
+
+.testimonials_section_fb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.testimonials_section_about{
+    width: 290px;
+    min-height: 225px;
+}
+
+.testimonials_section_text{
+    background-image: url(../img/disclamer.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-align: center;
+    width: 100%;
+    min-height: 144px;
+}
+
+.testimonials_section_text i {
+    
 }
 
 /*<!--Custom Sections-->*/
 
 .custom_section {
+    font-size: 14px;
+    color: #86878B;
+    background-image: url(../img/background_down.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 297px;
     background-color: #F5F5F5;
 }
+
+
 
 /*<!--Contact Us-->*/
 
 .contact_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ffffff;
 }
 
 /*<!--Footer-->*/
 
 .footer_footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: black;
 }
 
