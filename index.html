@@ -45,12 +45,12 @@
             <a href="" title="Download">Download</a>
         </div>
         <!--Form-->
-        <form class="logo_background_form">
+        <form class="logo_background_form" id="get_start" action="https://echo.htmlacademy.ru" method="POST" aria-label="Send message">
             <h3>Try Your <span>&nbspFREE&nbsp</span> Trial Today</h3>              
-            <input type="text" value="" placeholder="Name">
-            <input type="email" value="" placeholder="Email">
-            <input type="password" value="" placeholder="Password">
-            <button type="button">Get Started</button>
+            <input type="text" name="name_top" value="" placeholder="Name" id="get_start">
+            <input type="email" name="email_top" value="" placeholder="Email" id="get_start" >
+            <input type="password" name="password_top" value="" placeholder="Password" id="get_start">
+            <button form="get_start" type="submit">Get Started</button>
         </form>
     </div>
 
@@ -184,32 +184,38 @@
         <div class="testimonials_section_fb">
             <div class="testimonials_section_about">
                 <div class="testimonials_section_text">
-                    <i>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus<br>accusamus expedita repellat similique<br>odio aspernatur ex, architecto eaque<br>quo suscipit.</i>
+                    <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
-                <div>
-                    <img src="./img/avatar.png" title="Avatar">
-                    <h3>Jeremy H.</h3>
-                    <p>Manager</p>
+                <div class="testimonials_section_avatar">
+                    <div><img src="./img/avatar.png" title="Avatar"></div>
+                    <div class="testimonials_section_name">
+                        <h3>Jeremy H.</h3>
+                        <p>Manager</p>
+                    </div>
                 </div>
             </div>
             <div class="testimonials_section_about">
                 <div class="testimonials_section_text">
                     <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
-                <div>
-                    <img src="./img/avatar.png" title="Avatar">
-                    <h3>John S. H.</h3>
-                    <p>Freelancer</p>
+                <div class="testimonials_section_avatar">
+                    <div><img src="./img/avatar.png" title="Avatar"></div>
+                    <div class="testimonials_section_name">
+                        <h3>John S. H.</h3>
+                        <p>Freelancer</p>
+                    </div>
                 </div>
             </div>
             <div class="testimonials_section_about">
                 <div  class="testimonials_section_text">
-                    <i>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus<br>accusamus expedita repellat similique<br>odio aspernatur ex, architecto eaque<br>quo suscipit.</i>
+                    <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
-                <div>
-                    <img src="./img/avatar.png" title="Avatar">
-                    <h3>Susan W.</h3>
-                    <p>Photographer</p>
+                <div class="testimonials_section_avatar">
+                    <div><img src="./img/avatar.png" title="Avatar"></div>
+                    <div class="testimonials_section_name">
+                        <h3>Susan W.</h3>
+                        <p>Photographer</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -227,17 +233,25 @@
     <!--Contact Us-->
     
     <section class="contact_section">
-        <div>
+        <div class="contact_section_contact">
             <h2>CONTACT US</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <form>
-            <input type="text" value="" placeholder="Name">
-            <input type="email" value="" placeholder="Email">
-            <input type="text"  value="" placeholder="Subject">
-            <textarea>Message</textarea>
-            <button type="button">Send Message</button>
+        <form id="contact" action="https://echo.htmlacademy.ru" method="POST" aria-label="Send message">
+            <div class="contact_section_form">
+               <div class="contact_section_form_top">
+                    <input type="text" name="name_bot" value="" id="contact" placeholder="Name">
+                    <input type="email" name="email_bot" value="" id="contact" placeholder="Email">
+                    <input type="text" name="subject_bot"  value="" id="contact" placeholder="Subject">
+               </div>
+                <div  class="contact_section_form_bottom">
+                    <textarea id="contact" name="textarea" placeholder="Message" ></textarea>
+                </div>
+            </div>
+            <div class="contact_section_form_button">
+                <button type="submit" form="contact">Send Message</button>
+            </div>
         </form>
     </section>   
 </main>
@@ -245,7 +259,7 @@
 <!--Footer-->
 
 <footer class="footer_footer">
-    <div>
+    <div class="footer_footer_a">
         <a href=""><img src="./img/facebook.svg" alt="Facebook"></a>
         <a href=""><img src="./img/gplus.svg" alt="Google Plus"></a>
         <a href=""><img src="./img/twitte.svg" alt="Twitter"></a>
