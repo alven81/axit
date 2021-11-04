@@ -11,15 +11,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-
 <!--Navbar-->
 <header class="header_background">
-
     <div class="header_section_logo">
         <a href=""><img src="./img/logo_header.png" alt="AXIT Logo"></a>
     </div>
-    <nav class="link header_section_nav"><!--At present time don't use ul-li, because use nav-->
+    <nav class="header_section_nav"><!--At present time don't use ul-li, because use nav-->
         <a href="">Features</a>
         <a href="">About</a>
         <a href="">Pricing</a>
@@ -29,12 +26,12 @@
 
 </header>
 
-<!--Header Logo-->
 <main>
 
+<!--Header Logo-->
+
     <div class="logo_background">
-        <!--AXIT-->
-        <div class="logo_background_text">
+        <div>
             <img src="./img/logo_header.png" alt="AXIT Logo">
             <h2>MODERN AXURE TEMPLATE<br>FOR BEAUTIFUL PROTOTYPES</h2>
             <hr>
@@ -42,27 +39,26 @@
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus<br>
                 accumsan et viverra justo commodo.
             </p>
-            <a href="" title="Download">Download</a>
+            <a class="g_button" href="" title="Download">Download</a>
         </div>
-        <!--Form-->
         <form class="logo_background_form" id="get_start" action="https://echo.htmlacademy.ru" method="POST" aria-label="Send message">
-            <h3>Try Your <span>&nbspFREE&nbsp</span> Trial Today</h3>              
+            <h3>Try Your <span>FREE</span> Trial Today</h3>              
             <input type="text" name="name_top" value="" placeholder="Name" id="get_start">
             <input type="email" name="email_top" value="" placeholder="Email" id="get_start" >
             <input type="password" name="password_top" value="" placeholder="Password" id="get_start">
-            <button form="get_start" type="submit">Get Started</button>
+            <button class="o_button" form="get_start" type="submit">Get Started</button>
         </form>
     </div>
 
     <!--Brandbar-->
 
-    <section class="social_media_section">
+    <section class="social_media">
         <div>
             <h3>Social Media</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                Aenean euismod bibendum laoreet.</p>
         </div>
-        <div class="social_media_section_social">
+        <div class="social_media_section">
             <a href=""><img src="./img/facebook.svg" alt="Facebook"></a>
             <a href=""><img src="./img/gplus.svg" alt="Google Plus"></a>        
             <a href=""><img src="./img/twitte.svg" alt="Twitter"></a>            
@@ -76,15 +72,15 @@
 
     <section class="features_section">
         <div class="features_section_tab">
-            <div>TAB<sub>1</sub></div>
-            <div>TAB<sub>2</sub></div>
-            <div>TAB<sub>3</sub></div>
+            <a href=""><div class="features_section_tab_c">TAB<sub>1</sub></div></a>
+            <a href=""><div class="features_section_tab_c">TAB<sub>2</sub></div></a>
+            <a href=""><div class="features_section_tab_c">TAB<sub>3</sub></div></a>
         </div>
         <div class="features_section_middle">
             <h3>Tabs with soft transitioning effect.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br>penatibus et magnis dis parturient montes.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet.</p>
-            <a href="" title="Download">Download</a>
+            <a class="o_button" href="" title="Download">Download</a>
         </div>
         <div class="features_section_img">
             <img src="./img/image_right_skyscr.png" alt="Skyscraper">
@@ -94,12 +90,10 @@
     <!--Our Process-->
 
     <article class="process_article">
-        <div class="process_article_top">
             <h2>WHY THIS IS AWESOME</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="process_article_tripple">
+        <div class="process_article_features">
             <div>
                 <img src="./img/lamp.svg" alt="Lamp Logo">
                 <h3>Thoughtful Design</h3>
@@ -121,18 +115,16 @@
     <!--Pricing-->
 
     <section class="pricing_section">
-        <div class="pricing_section_top">
-            <h2>PRICING OPTIONS</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        <h2>PRICING OPTIONS</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="pricing_section_option">
-            <div class="pricing_section_margin">
+            <div>
                 <p><b>Basic</b></p>
                 <p><data>$0</data></p>
                 <p><em>Free for Life</em></p>
                 <p class="pricing_section_orange"></p>
-                <ul class="pricing_section_ul">
+                <ul>
                     <li>1 gb of space</li>
                     <li>10 gb of bandwidth</li>
                     <li>3 websites</li>
@@ -141,7 +133,7 @@
                     <li>email support</li>
                 </ul>
             </div>
-            <div class="pricing_section_margin">
+            <div>
                 <p><b>Professional</b></p>
                 <p><data>$19</data></p>
                 <p><em>Monthly Payment</em></p>
@@ -155,7 +147,7 @@
                     <li>email support</li>
                 </ul>
             </div>
-            <div class="pricing_section_margin">
+            <div>
                 <p><b>Enterprise</b></p>
                 <p><data>$70</data></p>
                 <p><em>Monthly Payment</em></p>
@@ -176,22 +168,17 @@
     <!--Testimonials-->
 
     <section class="testimonials_section">
-        <div class="testimonials_section_top">
-            <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="testimonials_section_fb">
             <div class="testimonials_section_about">
                 <div class="testimonials_section_text">
                     <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
                 <div class="testimonials_section_avatar">
-                    <div><img src="./img/avatar.png" title="Avatar"></div>
-                    <div class="testimonials_section_name">
-                        <h3>Jeremy H.</h3>
-                        <p>Manager</p>
-                    </div>
+                    <h3>Jeremy H.</h3>
+                    <p>Manager</p>
                 </div>
             </div>
             <div class="testimonials_section_about">
@@ -199,11 +186,8 @@
                     <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
                 <div class="testimonials_section_avatar">
-                    <div><img src="./img/avatar.png" title="Avatar"></div>
-                    <div class="testimonials_section_name">
-                        <h3>John S. H.</h3>
-                        <p>Freelancer</p>
-                    </div>
+                    <h3>John S. H.</h3>
+                    <p>Freelancer</p>
                 </div>
             </div>
             <div class="testimonials_section_about">
@@ -211,11 +195,8 @@
                     <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</i>
                 </div>
                 <div class="testimonials_section_avatar">
-                    <div><img src="./img/avatar.png" title="Avatar"></div>
-                    <div class="testimonials_section_name">
-                        <h3>Susan W.</h3>
-                        <p>Photographer</p>
-                    </div>
+                    <h3>Susan W.</h3>
+                    <p>Photographer</p>
                 </div>
             </div>
         </div>
@@ -227,30 +208,28 @@
         <h2>STYLISH AXURE DESIGN</h2>
         <hr>
         <p>Use the sections you need, remove the ones you don't.  Create g</p>
-        <a href="">Download</a>
+        <a class="g_button" href="">Download</a>
     </section>
     
     <!--Contact Us-->
     
     <section class="contact_section">
-        <div class="contact_section_contact">
             <h2>CONTACT US</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
         <form id="contact" action="https://echo.htmlacademy.ru" method="POST" aria-label="Send message">
             <div class="contact_section_form">
-               <div class="contact_section_form_top">
+               <div>
                     <input type="text" name="name_bot" value="" id="contact" placeholder="Name">
                     <input type="email" name="email_bot" value="" id="contact" placeholder="Email">
                     <input type="text" name="subject_bot"  value="" id="contact" placeholder="Subject">
                </div>
-                <div  class="contact_section_form_bottom">
+                <div class="contact_textarea">
                     <textarea id="contact" name="textarea" placeholder="Message" ></textarea>
                 </div>
             </div>
             <div class="contact_section_form_button">
-                <button type="submit" form="contact">Send Message</button>
+                <button class="o_button" type="submit" form="contact">Send Message</button>
             </div>
         </form>
     </section>   
@@ -258,8 +237,8 @@
 
 <!--Footer-->
 
-<footer class="footer_footer">
-    <div class="footer_footer_a">
+<footer>
+    <div>
         <a href=""><img src="./img/facebook.svg" alt="Facebook"></a>
         <a href=""><img src="./img/gplus.svg" alt="Google Plus"></a>
         <a href=""><img src="./img/twitte.svg" alt="Twitter"></a>
@@ -267,11 +246,9 @@
         <a href=""><img src="./img/linkedin.svg" alt="linkedIn"></a>
         <a href=""><img src="./img/pinterest.svg" alt="Pinterest"></a>
     </div>
-    <div>
-        <p>© 2015 Axure Themes</p>
-    </div>
+    <p>© 2015 Axure Themes</p>
 </footer>
 
 </body>
 
-</html>
+</html> 
