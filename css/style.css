@@ -323,16 +323,16 @@ nav a:active {
     transition: background 0.5s ease;
 }
 
+.features_section_tab div:hover{
+    background-color: #FF9B51;
+}
+
 .features_section_tab a {
     text-decoration: none;
 }
 
 .features_section_tab_c {
     border-radius: 4px;
-}
-
-.features_section_tab div:hover{
-    background-color: #FF9B51;
 }
 
 .features_section_middle p {
